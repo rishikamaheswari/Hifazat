@@ -5,14 +5,14 @@ function Navbar() {
   return (
     <div>
         <div className='Navbar'>
-        <a href='#' className='name'>Hifazat</a>
+        <Link href='localhost:3000' className='name'>Hifazat</Link>
         <div className='tabs'>
-            <a href='#'>Home</a>
-            <a href='#'>About</a>
-            <a href='#'>Resources</a>
-            <a href='#'>Contact</a>
+            <Link href='localhost:3000'>Home</Link>
+            <Link href='localhost:3000'>About</Link>
+            <Link href='localhost:3000'>Resources</Link>
+            <Link href='localhost:3000'>Contact</Link>
         </div>
-            <a href='#'>=</a>
+            <Link href='localhost:3000'>=</Link>
         </div>
     </div>
   )
