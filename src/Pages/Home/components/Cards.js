@@ -2,17 +2,44 @@ import React from 'react'
 
 function Cards() {
   return (
-    <div>
-        <div className='header1'>Great futures are built</div>
-        <div className='header'> with a small charity</div>
-        <p className='para'>The world's largest social fundraising platform,</p>
-        <p className='para'>optimized for your charity in a more easy way</p>
-        <div className='container'>
-            <button className='button1'>Donate Now</button>
-            <button className='button2'>Watch Video</button>
+    <div className='outerCards'>
+      <div>
+        <div className='card'>
+        <div className='cardBack'></div>
+        Things inside the card
         </div>
+        <div className='miniCard'>
+        Things inside the minicard
+        
+        </div>
+      </div>
+      <div>
+        <div className='card'>
+        <div className='cardBack'></div>
+        Things inside the card
+        </div>
+      </div>
+      <div>
+        <div className='card'>
+        Things inside the card
+        </div>
+      </div>
+      <div>
+        <div className='card'>
+        <div className='cardBack cardBackRight'></div>
+        Things inside the card
+        </div>
+      </div>
+      <div>
+        <div className='card'>
+        <div className='cardBack cardBackRight'></div>
+        Things inside the card
+        </div>
+        <div className='miniCard'>
+        Things inside the minicard
+        </div>
+      </div>
     </div>
-    
   )
 }
 
