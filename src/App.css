@@ -1,6 +1,6 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather:wght@900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
 /* Coming Soon Page */
 body {
@@ -71,4 +71,91 @@ body {
     text-shadow: 0 0 20px #eeeeee, 0 0 30px #c9e877, 0 0 40px #c9e877, 0 0 50px #c9e877,
                  0 0 60px #c9e877, 0 0 70px #c9e877, 0 0 80px #c9e877;
   }
+}
+
+/*Home-Page*/
+
+.Navbar
+{
+  display: flex;
+  justify-content:space-evenly;
+  padding: 150px 75px 36px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+a{
+  text-decoration: none;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #0d0c22;
+
+}
+
+.tabs
+{
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+}
+
+.header1
+{
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 28px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 15px;
+  color: #2a2828;
+}
+
+.header
+{
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 28px;
+  text-align: center;
+  padding: 20px;
+  color: #2a2828;
+}
+
+.para
+{
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 8px;
+  text-align: center;
+  color: #625c5c;
+}
+.container
+{
+ 
+ display: flex;
+ text-align: center;
+ padding-top: 20px;
+ padding-left: 550px;
+ padding-right: 200px
+
+}
+button
+{
+  background-color: #e7e9ed;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 13px;
+  font-weight: 600;
+  width: 20%;
+  height: 40px;
+  text-align: center;
+  border-radius: 30px;
+  border: none;
+  
+}
+.button1
+{
+  margin-right: 50px;
 }
