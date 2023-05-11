@@ -1,22 +1,25 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
 
-/* Coming Soon Page */
 body {
   font-family: 'Merriweather', serif;
-  background-image: url('https://cdn.downtoearth.org.in/library/large/2019-08-14/0.84489900_1565798792_cry.jpg') ;
   width: 100%;
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
+  min-height: 100vh;
+  padding-bottom: 100px;
 }
 
 :root {
   --text-color: hsl(81, 48%, 61%);
 }
 
+
+/* Coming Soon Page */
 .wrapper {
+  background-image: url('https://cdn.downtoearth.org.in/library/large/2019-08-14/0.84489900_1565798792_cry.jpg') ;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: grid;
   place-content: center;
   background-color: var(--background-color);
@@ -71,4 +74,283 @@ body {
     text-shadow: 0 0 20px #eeeeee, 0 0 30px #c9e877, 0 0 40px #c9e877, 0 0 50px #c9e877,
                  0 0 60px #c9e877, 0 0 70px #c9e877, 0 0 80px #c9e877;
   }
+}
+
+
+/* Navbar */
+.outerNav {
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.Navbar {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  height: 100px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tabs > a {
+  margin: auto 1vw;
+  width: 100%;
+}
+
+
+.outerNav a, .outerNav a:visited {
+  text-decoration: none;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #0d0c22;
+
+}
+
+/*Home Page*/
+.headerContainer, .headergreencard, .title, .communityheader, .community>p{
+  font-family: 'Libre Baskerville', serif;
+}
+
+.headerContainer > header, .headergreencard, .title, .communityheader, .number{
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #2a2828;
+}
+
+.headerContainer > p, .factor > p, .community>p{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #625c5c;
+}
+
+.headerContainer .buttonContainer {
+  display: flex;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: #e7e9ed;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 400;
+  width: max-content;
+  padding: 10px;
+  border: none;
+  margin: 10px;
+  border-radius: 30px;
+}
+
+.donate, .joincommunity {
+  background-color: #222;
+  color: white;
+}
+
+/* Cards */
+.outerCards {
+  display: flex;
+  width: 95%;
+  justify-content: space-between;
+  margin: auto;
+  align-items: flex-end;
+  margin-top: -30px;
+}
+
+.outerCards > div {
+  width: 100%;
+  padding: 5px;
+}
+
+.card {
+  position: relative;
+  background-color: #c8e776;
+  aspect-ratio: 1/1.3;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardBack {
+  position: absolute;
+  background-color: inherit;
+  width: 60%;
+  height: 100px;
+  top: -20px;
+  left: 0;
+  border-radius: 30px;
+  z-index: -10;
+}
+
+.cardBackRight {
+  right: 0;
+  left: auto;
+}
+
+.miniCard {
+  margin-top: 10px;
+  width: 100%;
+  aspect-ratio: 1/0.45;
+  background-color: #c8e776;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center; 
+}
+
+/* greencard */
+.greencard
+{
+  position: relative;
+  width: 95%;
+  margin: auto;
+  aspect-ratio: 1/0.5;
+  top: 6rem;
+  margin-bottom: 12%;
+}
+
+.headergreencard
+{
+  position: absolute;
+  width: 55%;
+  top: 0;
+  margin-top: 7%;
+}
+
+.factors
+{
+  display: flex;
+  width: 95%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.factor
+{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding-top: 300px;
+}
+
+.title{
+  font-size: 36px;
+}
+
+img
+{
+  width: 30%;
+  margin: auto;
+}
+
+.communityheader
+{
+  width: 70%;
+  margin: auto;
+  font-size: 36px;
+  line-height: 48px;
+  padding-bottom: 5%;
+}
+
+.number
+{
+  font-size: 120px;
+}
+
+.children1, .children3
+{
+  border-radius: 20px;
+  width: 12%;
+  aspect-ratio: 1.9/2;
+}
+
+.children2, .children4{
+  border-radius: 20px;
+  width: 12%;
+  aspect-ratio: 1.99/2;
+}
+
+.children1
+{
+  position: relative;
+  left: 65px;
+  bottom: 220px;
+}
+
+.children3
+{
+  position: relative;
+  left: 710px;
+  top: 0px;
+}
+
+.children4{
+  position: relative;
+  left: 650px;
+  bottom: 300px;
+}
+
+.community>p{
+  position: relative;
+  font-size: 24px;
+  color: #000000;
+  top: 60px;
+}
+
+.helpeachother{
+  padding-top: 120px;
+  width: 100%;
+}
+
+.joincommunity{
+  position: relative;
+  height: 50px;
+  right: 100px;
+  bottom: 60px
+}
+/* Media Queries */
+
+/* Home Page */
+/* Header */
+@media screen and (max-width: 650px) {
+  .headerContainer > header {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .headerContainer > header {
+    font-size: 26px;
+    line-height: 48px;
+  }
+
+  .Navbar .tabs {
+    display: none;
+  }
+
+  .buttonContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
 }
