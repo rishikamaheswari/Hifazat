@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from "../../components/Navbar"
 import Cards from "./components/Cards"
+import Community from "./components/Community"
 
 function Header() {
   return (
@@ -21,6 +22,7 @@ function Home() {
         <Navbar />
         <Header />
         <Cards />
+        <Community />
     </div>
   )
 }

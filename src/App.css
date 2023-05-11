@@ -114,11 +114,11 @@ body {
 }
 
 /*Home Page*/
-.headerContainer {
+.headerContainer, .headergreencard, .title, .communityheader, .community>p{
   font-family: 'Libre Baskerville', serif;
 }
 
-.headerContainer > header {
+.headerContainer > header, .headergreencard, .title, .communityheader, .number{
   font-weight: 900;
   font-size: 48px;
   line-height: 64px;
@@ -128,8 +128,7 @@ body {
   color: #2a2828;
 }
 
-
-.headerContainer > p {
+.headerContainer > p, .factor > p, .community>p{
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
@@ -158,7 +157,7 @@ button {
   border-radius: 30px;
 }
 
-.donate {
+.donate, .joincommunity {
   background-color: #222;
   color: white;
 }
@@ -180,7 +179,7 @@ button {
 
 .card {
   position: relative;
-  background-color: #f8d0d0;
+  background-color: #c8e776;
   aspect-ratio: 1/1.3;
   border-radius: 30px;
   display: flex;
@@ -209,7 +208,7 @@ button {
   margin-top: 10px;
   width: 100%;
   aspect-ratio: 1/0.45;
-  background-color: #f8d0d0;
+  background-color: #c8e776;
   border-radius: 30px;
   display: flex;
   justify-content: center;
@@ -217,6 +216,118 @@ button {
   align-items: center; 
 }
 
+/* greencard */
+.greencard
+{
+  position: relative;
+  width: 95%;
+  margin: auto;
+  aspect-ratio: 1/0.5;
+  top: 6rem;
+  margin-bottom: 12%;
+}
+
+.headergreencard
+{
+  position: absolute;
+  width: 55%;
+  top: 0;
+  margin-top: 7%;
+}
+
+.factors
+{
+  display: flex;
+  width: 95%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.factor
+{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding-top: 300px;
+}
+
+.title{
+  font-size: 36px;
+}
+
+img
+{
+  width: 30%;
+  margin: auto;
+}
+
+.communityheader
+{
+  width: 70%;
+  margin: auto;
+  font-size: 36px;
+  line-height: 48px;
+  padding-bottom: 5%;
+}
+
+.number
+{
+  font-size: 120px;
+}
+
+.children1, .children3
+{
+  border-radius: 20px;
+  width: 12%;
+  aspect-ratio: 1.9/2;
+}
+
+.children2, .children4{
+  border-radius: 20px;
+  width: 12%;
+  aspect-ratio: 1.99/2;
+}
+
+.children1
+{
+  position: relative;
+  left: 65px;
+  bottom: 220px;
+}
+
+.children3
+{
+  position: relative;
+  left: 710px;
+  top: 0px;
+}
+
+.children4{
+  position: relative;
+  left: 650px;
+  bottom: 300px;
+}
+
+.community>p{
+  position: relative;
+  font-size: 24px;
+  color: #000000;
+  top: 60px;
+}
+
+.helpeachother{
+  padding-top: 120px;
+  width: 100%;
+}
+
+.joincommunity{
+  position: relative;
+  height: 50px;
+  right: 100px;
+  bottom: 60px
+}
 /* Media Queries */
 
 /* Home Page */
