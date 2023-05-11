@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from "../../components/Navbar"
 import Cards from "./components/Cards"
 import Community from "./components/Community"
-
+import MeetUs from "./components/MeetUs"
 function Header() {
   return (
     <div className='headerContainer'>
@@ -23,6 +23,7 @@ function Home() {
         <Header />
         <Cards />
         <Community />
+        <MeetUs />
     </div>
   )
 }
